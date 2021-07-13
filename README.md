@@ -1,2 +1,8 @@
 # biostatisticsproject
 This repository has all the code I used for my final project in the Biostatistics II course 
+
+The task for the project was to pose a research question and get data to analize using the methodology learned in class. Because of the COVID-19 pandemic, we had the possibility of using preexisting data from other researchers if we couldn't get the data by ourselves at home. So with my partner we decided to use data collected by Sundermann, Stoll and Haase (2011) and use it to answer interesting questions about river restoration and land use. We posed 2 main questions: Does land use of the areas surrounding rivers affect the abundance, richness and diversity of benthonic invertebrates? and Does river restoration changes the abundance, richness and diversity of benthonic invertebrates? To answer those questions we did a PERMANOVA for the first one and we did T tests for the second one. 
+
+We found out that in this case land use didn't affect the variables, we hipothezise that the reason behind theese results is that in this case the land use was well distributed between natural forest and agricultural activity, with little to no urbanization, so that the forest could aliviate the impact made by the rest of the land use. We also found out that the river restorations didn't impact the variables, this is consistent with other research that propose that river restoration isn't enough in this situations because most river restoration projects can't ameliorate water quality, which is the microhabitat of this group of animals and is the main variable that explains their thriving. 
+
+This was a fun project to work in, I share here the datasets used and the codes. 
