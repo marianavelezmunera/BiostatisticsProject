@@ -110,7 +110,7 @@ mult.norm(data)$mult.test
 library(energy)
 mvnorm.etest(data, R=100)
 
-#To used the adonis function in the vegan package we had to convert the data frame into a distance matrix
+#To use the adonis function in the vegan package we had to convert the data frame into a distance matrix, the distance used was Bray-Curtis distance because the data we had
 datamatrix<-as.matrix(data)
 data.root<-sqrt(datamatrix)
 data.dist<-vegdist(data.root,method="bray")
